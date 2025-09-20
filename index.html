@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'Foods - Cita Rasa Terbaik</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            padding-top: 56px; 
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #4CAF50 !important;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+        }
+        .hero-text {
+            text-align: center;
+        }
+        .section-padding {
+            padding: 60px 0;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">J'Foods</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto hero-text">
+                    <h1 class="display-3 fw-bold">Selamat Datang di J'Foods</h1>
+                    <p class="lead mt-4">Nikmati hidangan ayam lezat yang disiapkan dengan hati.</p>
+                    <a href="#menu" class="btn btn-warning btn-lg mt-3">Lihat Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="background2.png" class="img-fluid rounded" alt=" J'Foods">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-center text-lg-start mb-4">Tentang Kami</h2>
+                    <p class="text-secondary">J'Foods hadir untuk menyajikan hidangan ayam terbaik dengan cita rasa unik. Kami berkomitmen menggunakan bahan-bahan segar pilihan untuk menjamin setiap suapan adalah pengalaman yang tak terlupakan.</p>
+                    <p class="text-secondary"> kami adalah brand makanan rumahan baru dibidang kuliner yang mempunyai rasa otentik dengan harga terjangkau.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Menu Spesial Kami</h2>
+                <p class="text-secondary">Pilihan menu ayam yang paling digemari.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="ayamasammanis.png" class="card-img-top" alt="Ayam Asam Manis">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ayam Asam Manis</h5>
+                            <p class="card-text text-secondary">Potongan ayam goreng tepung disajikan dengan saus asam manis spesial yang segar.</p>
+                            <span class="text-primary fw-bold">Rp 12.000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="ayamblackpaper.png" class="card-img-top" alt="Ayam Blackpaper">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ayam Blackpaper</h5>
+                            <p class="card-text text-secondary">Ayam dimasak dengan saus lada hitam pedas manis yang meresap sempurna.</p>
+                            <span class="text-primary fw-bold">Rp 13.000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="ayamsuwir.png" class="card-img-top" alt="Ayam Suwir">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ayam Suwir</h5>
+                            <p class="card-text text-secondary">Ayam yang disuwir lembut dengan bumbu rempah-rempah yang kaya rasa.</p>
+                            <span class="text-primary fw-bold">Rp 15.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Hubungi Kami</h2>
+                <p class="text-secondary">Kami siap melayani Anda. Kunjungi platform media sosial kami untuk pemesanan</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card p-4">
+                        <p class="lead">
+                            <i class="bi bi-geo-alt-fill"></i>
+                 Griya Kertamukti Cibitung Residence, Kertamukti, Cibitung, Kabupaten Bekasi
+                        </p>
+                        <p class="lead">
+                            <i class="bi bi-telephone-fill"></i>
+                            +62 899 9836 772
+                        </p>
+                        <p class="lead">
+                            <i class="bi bi-envelope-fill"></i>
+                            jfoodsinfo@gmail.com
+                        </p>
+                        <hr>
+                        <div class="ratio ratio-16x9">
+                            <iframe 
+                 width="100%" height="450"
+                 style="border:0;"
+                 loading="lazy"
+                 allowfullscreen
+                 referrerpolicy="no-referrer-when-downgrade"
+                 src="http://googleusercontent.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Griya+Kertamukti+Cibitung+Residence"
+                ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="m-0">© 2025 J'Foods. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
